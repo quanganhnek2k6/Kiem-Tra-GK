@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Giới thiệu về nhóm phát triển web - 3 thành viên chuyên nghiệp">
+    <meta name="keywords" content="nhóm phát triển, web development, thành viên nhóm">
+    <meta name="author" content="Nhóm phát triển">
+    <meta property="og:title" content="Giới thiệu Nhóm Phát Triển Web">
+    <meta property="og:description" content="Tìm hiểu về 3 thành viên giỏi giang trong nhóm phát triển web">
+    <meta property="og:type" content="website">
+    <title>SV IT - Giới thiệu Nhóm</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #ffffff;
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, .site-header {
+            text-align: center;
+            color: #00c6ff;
+            margin-bottom: 50px;
+            padding: 40px 20px;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 0 0 10px #00c6ff;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        .members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .member-card {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+        .member-card:hover {
+            transform: translateY(-10px);
+        }
+        .avatar {
+            width: 150px;
+            height: 150px;
+            background: #ddd;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 60px;
+            color: #666;
+            overflow: hidden; /* ensure inner img doesn't overflow */
+        }
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .member-name {
+            font-size: 1.5em;
+            color: #00c6ff;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        .member-role {
+            color: #764ba2;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .member-desc {
+            color: #666;
+            font-size: 0.95em;
+            line-height: 1.5;
+        }
+        footer, .site-footer {
+            text-align: center;
+            color: #00c6ff;
+            margin-top: 50px;
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+</head>
+<body>
+        <header class="site-header" style="text-align:center;color:#00c6ff;padding:20px;font-family:'Courier New',Courier,monospace; text-shadow:0 0 6px #00c6ff;">
+            <h2>🖥️ SV công nghệ thông tin</h2>
+            <nav>
+                <a href="index.html" style="color:#ffffff;margin:0 10px;text-decoration:none;font-weight:bold;">Home</a>|
+                <a href="sanpham.html" style="color:#ffffff;margin:0 10px;text-decoration:none;font-weight:bold;">Sản phẩm</a>
+            </nav>
+        </header>
+            
+        </header>    <div class="container">
+        <header>
+            <h1>Nhóm Phát Triển Web</h1>
+            <p class="subtitle">Đội ngũ chuyên nghiệp, sáng tạo và tận tâm</p>
+        </header>
+
+        <section class="members">
+            <div class="member-card">
+                <div class="avatar">
+                <!-- Ví dụ chèn ảnh: -->
+                <img src="https://scontent.fsgn20-1.fna.fbcdn.net/v/t39.30808-6/473421780_990461266236059_5594638334962422868_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=1d70fc&_nc_ohc=6WPToQuYKcoQ7kNvwFd2lus&_nc_oc=AdlqwhixpLSc9uwuqqJCZW2jl2v5ir7SCat702qYlK5k16FQHd8Oz9f5GZSca1fegHk&_nc_zt=23&_nc_ht=scontent.fsgn20-1.fna&_nc_gid=9yiW5A0YWZoWxiovZhuwCQ&_nc_ss=8&oh=00_AfxALswtEzmH29j4q2YwzQwhHJL6nt0R9EDrhJqSWPAD7w&oe=69B5B138" alt="Pé Cáo Damdang" width="150" height="150">
+            </div>
+                <div class="member-name">Lã Ngọc Quang Anh</div>
+                <div class="member-role">Coder lỏ</div>
+                <p class="member-desc">Tôi là coder lỏ, chuyên gia chat gpt</p>
+            </div>
+
+            <div class="member-card">
+                <div class="avatar">
+                <img src="images/member2.jpg" alt="Avatar Thành viên 2" width="150" height="150">
+            </div>
+                <div class="member-name">Thành viên 2</div>
+                <div class="member-role">Backend Developer</div>
+                <p class="member-desc">Có kinh nghiệm xây dựng API, quản lý cơ sở dữ liệu. Tập trung vào hiệu suất và bảo mật.</p>
+            </div>
+
+            <div class="member-card">
+                <div class="avatar">
+                <img src="images/member3.jpg" alt="Avatar Thành viên 3" width="150" height="150">
+            </div>
+                <div class="member-name">Thành viên 3</div>
+                <div class="member-role">UI/UX Designer</div>
+                <p class="member-desc">Thiết kế giao diện sáng tạo, tối ưu hóa trải nghiệm người dùng. Luôn theo dõi xu hướng thiết kế.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 Nhóm Phát Triển Web. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

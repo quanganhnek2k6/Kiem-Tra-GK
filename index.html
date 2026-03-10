@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào Mừng - Sv IT</title>
+    <meta name="description" content="Trang web chào mừng người dùng với thiết kế đơn giản và thông điệp thân thiện. Bắt đầu hành trình cùng chúng tôi ngay hôm nay!">
+    <meta name="keywords" content="chào mừng, trang web đơn giản, bắt đầu hành trình, Tiếng Việt">
+    <meta name="author" content="Quanganhnek2k6">
+    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Chào Mừng Bạn!">
+    <meta property="og:description" content="Trang web chào mừng người dùng với thiết kế đơn giản và thông điệp thân thiện.">
+    <meta property="og:image" content="/assets/og-image.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Chào Mừng Bạn!">
+    <meta name="twitter:description" content="Trang web chào mừng người dùng với thiết kế đơn giản và thông điệp thân thiện.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* darker, techy gradient */
+            background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #f0f0f0;
+        }
+        
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 60px 40px;
+            border-radius: 20px;
+            border: 2px solid #00c6ff;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            color: #00c6ff;
+            font-size: 48px;
+            margin-bottom: 20px;
+            animation: fadeIn 1s ease-in;
+            font-family: 'Courier New', Courier, monospace;
+            text-shadow: 0 0 10px #00c6ff;
+        }
+        
+        p {
+            color: #ddd;
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Trang Chào Mừng",
+      "url": "https://example.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://example.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header" style="text-align:center;color:#00c6ff;padding:20px;font-family:'Courier New',Courier,monospace; text-shadow:0 0 6px #00c6ff;">
+        <h2>🖥️ SV công nghệ thông tin | KI-M-TRA</h2>
+        <nav>
+            <a href="index.html" style="color:#00c6ff;margin:0 10px;text-decoration:none;">Home</a>|
+            <a href="sanpham.html" style="color:#00c6ff;margin:0 10px;text-decoration:none;">Sản phẩm</a>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>🎉 Chào Mừng Bạn!</h1>
+        <p>Đây là một trang web đơn giản để chào đón bạn. Hãy bắt đầu hành trình của bạn cùng chúng tôi.</p>
+        <div class="button-group">
+            <button onclick="window.location.href='sanpham.html'">Sản phẩm</button>
+            <button onclick="window.location.href='page2.html'">Trang 2</button>
+            <button onclick="window.location.href='page3.html'">Trang 3</button>
+            <button onclick="alert('Cảm ơn bạn đã ghé thăm!')">Bắt Đầu</button>
+        </div>
+        <footer class="site-footer">
+            <p>&copy; 2024 Sinh viên IT. Tất cả các quyền.</p>
+        </footer>
+    </div>
+</body>
+</html>
